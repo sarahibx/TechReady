@@ -1,0 +1,155 @@
+body{
+    padding:0;
+    margin:0;
+    background:linear-gradient(to right, #6E1FDA, #27006A);
+   }
+   .main-container{
+    width:100%;
+    height:500px;
+   }
+   .sub-container{
+    margin:55px auto;
+    height:56px;
+    width:820px;
+    background-color:#170058;
+    border-radius:12px;
+    box-shadow: 1px -3px 12px 7px #36007E;
+
+   }
+
+   .wel{
+    margin-top:85px;
+    text-align:center;
+color: white;
+    font-family:lato;
+    font-weight:900;
+    font-weight:bold;
+    font-size:50px;
+   }
+   @font-face{
+    font-family:"lato";
+    src:"Lato-Regular.ttf";
+   }
+   .ready{
+    margin-top:-20px;
+    text-align:center;
+    color:white;
+    font-family:lato;
+    font-weight:100;
+    font-size:20px;
+    font-style:italic;
+   }
+   .btn-left{
+    padding:13px 20px 13px 20px;
+    border-radius:38px;
+    border-style:none;
+    font-weight:900;
+    font-size:15px;
+    font-family:lato;
+    outline:none;
+   box-shadow: 1px -3px 12px 7px #36007E;
+   background-color:#170058;
+    color:white;
+    margin-left: 215px;
+    
+   }
+   .btn-right{
+    margin-left:20px;
+    padding:13px 28px 13px 20px;
+    border-radius:38px;
+    border-style:none;
+    font-weight:900;
+    font-size:15px;
+    font-family:lato;
+    background-color:#170058;
+    outline:none;
+    box-shadow: 1px -3px 12px 7px #36007E;
+    color:white;
+    
+   }
+   .btn-left:hover{
+    background-color:white;
+    color:#000000;
+    
+   }
+   .btn-right:hover{
+    background-color:white;
+    color:#000000;
+   }
+
+   .sign-up-heading{
+    padding-top:10px;
+    text-align:center;
+    font-family:lato;
+    color:#f5f2fa;
+   }
+ 
+   .sign-in{
+    height:100%;
+    width:100%;
+     }
+ 
+   .txt{
+    width: 120px;
+    font-family: lato;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    padding: 15px 130px 15px 20px;
+    background: none;
+    background-color: rgba(247, 247, 248, 0.4);
+   color:#000000;
+    border-style: solid;
+    border-radius: 30px;
+    outline: none;
+    border-color: #f1f1f1;
+
+   }
+   .txt:hover{
+    padding:15px 150px 15px 20px;
+    transition:10;
+    background-color:white;
+   }
+
+   .text:focus{
+    padding:15px 150px 15px 20px;
+    transition:10;
+    background-color:white;
+    color:#230162;
+   }
+   ::placeholder{
+    color:#230162;
+    font-weight:500;
+   }
+   .sign-up-input{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .btn{
+    display:flex;
+    margin-top:15px;
+
+    padding:15px 50px 15px 50px;
+    background:none; 
+    background-color:white; 
+    color:white;
+    border-style:solid;
+    border-radius:30px;
+    outline:none;
+    border-color:#230162;
+    text-align:center;
+    font-family:lato;
+    color:#230162;
+    font-size:15px;
+    font-weight:900;
+   }
+   .btn:hover{
+    background-color:white;
+   }
+   .log-in{
+     height:100%;
+    width:100%;
+   }
+ 
